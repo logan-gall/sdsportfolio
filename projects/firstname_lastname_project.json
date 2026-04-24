@@ -1,0 +1,12 @@
+
+{
+"title": "Cloud-Based Live Location Sharing",
+"author": "Logan Gall",
+"thumbnail_image": "logangall_project_thumbnail.png",
+"popup_image": "logangall_project_popup.jpg",
+"tags": ["Independent (Preliminary) Research", "coding-centric", "Transportation", "open-source"],
+"description": "A live location sharing web application was developed that allows users to share their real-time location with friends or colleagues. The platform is designed to be lightweight, requiring no additional app downloads, and enables users to input their location manually or by clicking on the map. The system also provides dynamic route calculations to shared locations and real-time updates. Built using Google Cloud infrastructure, the application leverages Flask, Docker, Cloud SQL, and automated deployments to ensure a seamless and scalable experience.",
+"link_1": { "text": "View My Portfolio", "link": "https://logangall.com" },
+"link_2": { "text": "Project on GitHub", "link": "https://github.com/logan-gall/Live_Location_Sharing" },
+"link_3": { "text": "My LinkedIn", "link": "https://linkedin.com/in/logan-gall" }
+}

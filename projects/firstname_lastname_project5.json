@@ -1,0 +1,11 @@
+{
+"title": "Sample Project 5",
+"author": "Luke Zaruba",
+"thumbnail_image": "sample-thumbnail.png",
+"popup_image": "sample-thumbnail.png",
+"tags": ["Independent (Preliminary) Research", "coding-centric"],
+"description": "This is a fake project used as a placeholder to demonstrate the gallery layout and functionality. It includes multiple tags and a description to show how content will be displayed in the dialog.",
+"link_1": { "text": "View App", "link": "https://example.com" },
+"link_2": { "text": "GitHub", "link": "https://github.com" },
+"link_3": { "text": "Paper", "link": "https://example.com/paper" }
+}

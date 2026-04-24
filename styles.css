@@ -1,0 +1,156 @@
+/* Layout */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--calcite-font-family, sans-serif);
+  background: var(--calcite-color-background, #f3f3f3);
+  color: var(--calcite-color-text-1);
+  --calcite-card-corner-radius: 15px;
+}
+
+calcite-navigation {
+  margin-bottom: 1.5rem;
+}
+
+#theme-btn {
+  margin-inline-end: 0.5rem;
+}
+
+.page-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem 3rem;
+}
+
+.section-heading {
+  margin: 0 0 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--calcite-color-text-1);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+calcite-card {
+  width: 100%;
+}
+
+calcite-card img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.dialog-body {
+  padding: 1rem 1.25rem;
+}
+
+.dialog-body img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.dialog-description {
+  color: var(--calcite-color-text-2);
+  line-height: 1.6;
+  margin: 0 0 1rem;
+}
+
+.dialog-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.dialog-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+@media (min-width: 550px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 800px) {
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1100px) {
+  .card-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Responsive */
+#mobile-menu-btn {
+  display: none;
+  margin-inline-end: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .page-content {
+    padding: 1rem;
+  }
+
+  .dialog-body img {
+    aspect-ratio: 16 / 9;
+  }
+
+  calcite-menu {
+    display: none;
+  }
+
+  #mobile-menu-btn {
+    display: inline-flex;
+  }
+}
+
+/* Themes */
+.theme-light {
+  --calcite-color-brand: #7a0019;
+  --calcite-color-brand-hover: #5b0013;
+  --calcite-color-brand-press: #3d000d;
+}
+
+.theme-dark {
+  --calcite-color-brand: #ffcc33;
+  --calcite-color-brand-hover: #e6b800;
+  --calcite-color-brand-press: #cca300;
+}
+
+.theme-umn {
+  --calcite-color-brand: #ffcc33;
+  --calcite-color-brand-hover: #e6b800;
+  --calcite-color-brand-press: #cca300;
+  --calcite-color-background: #4a0010;
+  --calcite-color-surface-1: #5b0013;
+  --calcite-color-surface-2: #7a0019;
+  --calcite-color-surface-3: #3d000d;
+  --calcite-color-surface-4: #2e0009;
+  --calcite-color-text-1: #fff8e7;
+  --calcite-color-text-2: #ffe08a;
+  --calcite-color-text-3: #d4a017;
+  --calcite-color-border-1: #9b1c2e;
+  --calcite-color-border-2: #7a0019;
+  --calcite-color-border-3: #5b0013;
+}

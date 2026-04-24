@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- A title/icon for our page -->
+    <title>GIS 5572 Project Gallery</title>
+    <link rel="icon" href="favicon.ico" sizes="any" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Loading our CSS styles -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Loading Calcite components from the CDN -->
+    <script
+      type="module"
+      src="https://js.arcgis.com/calcite-components/5.0.2"
+    ></script>
+  </head>
+
+  <!-- Here's the UI layout -->
+
+  <body>
+    <!-- Header/nav section -->
+    <calcite-navigation>
+      <calcite-navigation-logo
+        slot="logo"
+        heading="GIS 5572 Project Gallery"
+        icon="globe"
+      ></calcite-navigation-logo>
+      <calcite-menu slot="content-end" label="Site navigation">
+        <calcite-menu-item
+          text="MGIS Program"
+          href="https://cla.umn.edu/mgis/mgis-program"
+          target="_blank"
+        ></calcite-menu-item>
+        <calcite-menu-item
+          text="GeoCommons"
+          href="https://geocommons.umn.edu/"
+          target="_blank"
+        ></calcite-menu-item>
+      </calcite-menu>
+      <calcite-action
+        slot="content-end"
+        id="theme-btn"
+        icon="brightness"
+        text="Light"
+        title="Theme: Light"
+        appearance="transparent"
+        scale="m"
+      ></calcite-action>
+      <calcite-action
+        slot="content-end"
+        id="mobile-menu-btn"
+        icon="hamburger"
+        text="Menu"
+        title="Open menu"
+        appearance="transparent"
+        scale="m"
+      ></calcite-action>
+    </calcite-navigation>
+
+    <calcite-sheet id="mobile-sheet" position="inline-start" label="Navigation">
+      <calcite-panel id="mobile-panel" heading="Navigation" closable>
+        <calcite-list>
+          <calcite-list-item
+            label="MGIS Program"
+            href="https://cla.umn.edu/mgis/mgis-program"
+            target="_blank"
+          ></calcite-list-item>
+          <calcite-list-item
+            label="GeoCommons"
+            href="https://geocommons.umn.edu/"
+            target="_blank"
+          ></calcite-list-item>
+        </calcite-list>
+      </calcite-panel>
+    </calcite-sheet>
+
+    <!-- Main content area -->
+    <div class="page-content">
+      <p class="section-heading">About</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus
+        ex sapien vitae pellentesque sem placerat. In id cursus mi pretium
+        tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.
+        Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis
+        massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper
+        vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra
+        inceptos himenaeos.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus
+        ex sapien vitae pellentesque sem placerat. In id cursus mi pretium
+        tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.
+        Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis
+        massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper
+        vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra
+        inceptos himenaeos.
+      </p>
+      <p class="section-heading">Browse Projects</p>
+      <div class="card-grid" id="card-grid"></div>
+    </div>
+
+    <!-- Single reusable dialog -->
+    <calcite-dialog id="project-dialog" heading="" description="" modal>
+      <div class="dialog-body" id="dialog-body"></div>
+      <calcite-button
+        slot="footer-end"
+        id="dialog-close-btn"
+        appearance="outline"
+        >Close</calcite-button
+      >
+    </calcite-dialog>
+
+    <!-- Loading our JS -->
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

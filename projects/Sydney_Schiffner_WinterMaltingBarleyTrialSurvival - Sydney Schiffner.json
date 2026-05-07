@@ -1,0 +1,25 @@
+{
+  "title": "Winter Malting Barley Trial Survival",
+  "author": "Sydney Schiffner",
+  "thumbnail_image": "Spr2026WinterBarleyEmergenceThumbnail - Sydney Schiffner.jpg",
+  "popup_image": "2023WMBTWintSurMapPopup - Sydney Schiffner.jpg",
+  "tags": [
+    "Agriculture",
+    "Environment",
+    "Cartography & Visualization",
+    "Independent (Preliminary) Research"
+  ],
+  "description": "The Winter Malting Barley Trial (WMBT) is a University of Minnesota-managed, nationwide United States yield trial that was first planted in the Fall of 2010 and is ongoing. Winter barley is a winter annual crop that is planted in the fall, overwinters and then regrows in the spring to produce seed yields. However, winter barley has intermediate survival in many locations due to differing winter weather conditions. Many WMBT locations measure winter survival data, and this is important for determining where winter barley successfully survives winter conditions. However, each evaluation year and location has different weather conditions. Therefore to see how winter barley survival changes with each planting year I've developed a jupyter notebook that takes in location name, location (lat/long) and winter survival data. Based on these metrics the notebook can output individual maps for each year of study. Using symbology coding we can then color the points based on their average winter survival at a location and label the points for identification for geographic examination. We will use these maps to identify locations with intermediate winter survival and then use the weather data from these locations to predict weather conditions that contribute to winter barley winterkill.",
+  "link_1": {
+    "text": "WMBT Trial Information",
+    "link": "https://smithlab.cfans.umn.edu/barley/winter-malting-barley-trial"
+  },
+  "link_2": {
+    "text": "Project on GitHub",
+    "link": "https://github.com/schif097/GIS5572FinalProject"
+  },
+  "link_3": {
+    "text": "My LinkedIn",
+    "link": "https://www.linkedin.com/in/sydney-schiffner-2846b060/"
+  }
+}

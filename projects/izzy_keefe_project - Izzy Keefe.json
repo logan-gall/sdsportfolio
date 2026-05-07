@@ -1,0 +1,24 @@
+{
+  "title": "Consolidation of Medical Practices in Minneapolis",
+  "author": "Izzy Keefe",
+  "thumbnail_image": "keefe_project_thumbnail - Izzy Keefe.jpg",
+  "popup_image": "keefe_project_popup - Izzy Keefe.png",
+  "tags": [
+    "Cartography & Visualization",
+    "Health",
+    "Independent (Preliminary) Research"
+  ],
+  "description": "A StoryMap exploring the consolidation of medical practices in Minneapolis between 1960 and 1990. This project was based on historical data found in city directories, and geocoded manually. Includes maps, tables, historical photos, and plenty of background info for context.",
+  "link_1": {
+    "text": "View My Portfolio",
+    "link": "https://sites.google.com/view/izzykeefegis/main"
+  },
+  "link_2": {
+    "text": "View My StoryMap",
+    "link": "https://storymaps.arcgis.com/stories/636f8a9b59b94d81bdd09b80a9e531e6"
+  },
+  "link_3": {
+    "text": "My LinkedIn",
+    "link": "https://www.linkedin.com/in/izzy-keefe-872119199/"
+  }
+}

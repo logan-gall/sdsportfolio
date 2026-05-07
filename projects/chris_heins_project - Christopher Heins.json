@@ -1,0 +1,28 @@
+{
+  "title": "Metro Transit Accessibility Analysis",
+  "author": "Chris Heins",
+  "thumbnail_image": "heins070_thumb - Christopher Heins.png",
+  "popup_image": "heins070_popup - Christopher Heins.png",
+  "tags": [
+    "Cartography & Visualization",
+    "Network Analysis",
+    "coding-centric",
+    "Transportation",
+    "open-source",
+    "Urban Planning",
+    "Machine Learning & AI"
+  ],
+  "description": "Accessibility analysis of the Metro Transit network in the Twin Cities using a population hex grid and R5Py network analysis engine. Highlights areas with high and low access to jobs via the transit network and explores demographic characteristics of populations along transit routes. The process uses publicly available datasets, a PostGIS database, and is documented in a Jupyter notebook for replicability.",
+  "link_1": {
+    "text": "View My Portfolio",
+    "link": "https://lovemesomemaps.com"
+  },
+  "link_2": {
+    "text": "Project on GitHub",
+    "link": "https://github.com/Heins070/TransitAccess"
+  },
+  "link_3": {
+    "text": "My LinkedIn",
+    "link": "https://linkedin.com/in/lovemesomemaps"
+  }
+}

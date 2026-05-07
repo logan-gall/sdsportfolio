@@ -1,0 +1,25 @@
+{
+  "title": "Urban Greening Trend Hotspot Analysis",
+  "author": "Cleo Young",
+  "thumbnail_image": "TrendHotspots - Cleo Young.jpg",
+  "popup_image": "TrendHotspotsDetail - Cleo Young.jpg",
+  "tags": [
+    "Remote Sensing",
+    "Urban Planning",
+    "Environment",
+    "Natural Resource Management"
+  ],
+  "description": "A fully reproducible ArcPy workflow for creating meaningful hotspot analyses of rasters, in particular those that show trends in land cover change over time. Users can batch process datasets and iteratively test which aggregation and analysis parameters best reflect the spatial scale of the dataset's trends. To demonstrate the tool, I produced a hotspot analysis of urban greening trends in the 7-county Twin Cities metro area, based on LandTrendr data generously shared by my labmate and colleague Celia Cortopassi.",
+  "link_1": {
+    "text": "View My Portfolio",
+    "link": "https://cleoyoung.com/"
+  },
+  "link_2": {
+    "text": "Project on GitHub",
+    "link": "https://github.com/cleorose/trend-raster-hotspots"
+  },
+  "link_3": {
+    "text": "My LinkedIn",
+    "link": "https://www.linkedin.com/in/cleoyoung/"
+  }
+}

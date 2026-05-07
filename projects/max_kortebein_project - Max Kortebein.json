@@ -1,0 +1,25 @@
+{
+  "title": "Geolocation Convolutional Neural Network",
+  "author": "Max Kortebein",
+  "thumbnail_image": "kortebein_thumb - Max Kortebein.png",
+  "popup_image": "kortebein_popup - Max Kortebein.png",
+  "tags": [
+    "Machine Learning & AI",
+    "coding-centric",
+    "Independent (Preliminary) Research",
+    "open-source"
+  ],
+  "description": "A Convolutional Neural Network (CNN) which has the ability to guess the location of images taken on the ground (non-satellite). Inspiration was taken from the game GeoGuessr, in which you are given a Google StreetView image and prompted to guess where the image was taken on Earth. S2 Cell recursion was implemented to create labels for each image (i.e. the cell in which each image is located).",
+  "link_1": {
+    "text": "View My Portfolio",
+    "link": "https://maxkortebein.com"
+  },
+  "link_2": {
+    "text": "Project on GitHub",
+    "link": "https://github.com/mkortebein8/geolocator_cnn"
+  },
+  "link_3": {
+    "text": "My LinkedIn",
+    "link": "https://www.linkedin.com/in/max-kortebein-17b50837b"
+  }
+}

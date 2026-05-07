@@ -1,0 +1,25 @@
+{
+  "title": "SNAP-Ed BigMap 25",
+  "author": "Paulina Vergara Buitragp",
+  "thumbnail_image": "SNAP - Paulina Vergara Buitrago.jpg",
+  "popup_image": "SNAP_1 - Paulina Vergara Buitrago.jpg",
+  "tags": [
+    "University of Minnesota Extension",
+    "Public Health",
+    "SNAP-Ed",
+    "Education"
+  ],
+  "description": "The SNAP-Ed BigMap is an interactive, ArcGIS-based mapping tool used primarily in Minnesota to visualize and analyze SNAP-Ed program locations, eligibility data, and community health indicators. It helps educators and partners identify areas for nutritional programming, such as mapping food access, free/reduced lunch rates, and social determinants of health.",
+  "link_1": {
+    "text": "Project",
+    "link": "https://storymaps.arcgis.com/stories/a3edd830c1d444418e51501c3eef8cd2"
+  },
+  "link_2": {
+    "text": "View My Portfolio",
+    "link": "https://experience.arcgis.com/experience/97ac3587c0a1487e88ae6fce8df4f79f/page/Home?draft=true"
+  },
+  "link_3": {
+    "text": "My LinkedIn",
+    "link": "https://www.linkedin.com/in/paulina-vergara-buitrago/"
+  }
+}

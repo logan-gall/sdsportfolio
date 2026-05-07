@@ -1,0 +1,24 @@
+{
+  "title": "Twin Cities Noise Exposure Analysis",
+  "author": "Shaam Adam",
+  "thumbnail_image": "schools_noise_shaam - Shaam Adam.png",
+  "popup_image": "raster_noise_shaam - Shaam Adam.png",
+  "tags": [
+    "SQL",
+    "PostGIS",
+    "noise-pollution"
+  ],
+  "description": "A noise pollution propagation model was developed that estimates combined transportation noise exposure across the seven county Twin Cities metro area. The platform replicates methodology required of European cities under the EU Environmental Noise Directive, modeling noise from 32,000 road segments, rail lines, and nine airports across 2,380 schools and 817 census tracts. The system applies a distance decay propagation function and logarithmic energy summation to calculate combined noise exposure at each receiver location, flagging sites that exceed the WHO 65 dB threshold. Built using PostgreSQL and PostGIS, the analysis reveals a clear environmental justice pattern - low income census tracts bear significantly higher noise burdens than high income areas.",
+  "link_1": {
+    "text": "View My Portfolio",
+    "link": "https://shaam.dev"
+  },
+  "link_2": {
+    "text": "Project on GitHub",
+    "link": "https://github.com/shaamada/twin-cities-noise-pollution-model"
+  },
+  "link_3": {
+    "text": "My LinkedIn",
+    "link": "https://www.linkedin.com/in/shaam-adam"
+  }
+}

@@ -83,6 +83,49 @@ calcite-card img {
   gap: 6px;
 }
 
+.site-footer {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: var(--calcite-color-surface-1);
+  border-top: 1px solid var(--calcite-color-border-2);
+  color: var(--calcite-color-text-2);
+}
+
+.footer-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.site-footer p {
+  margin: 0 0 0.75rem;
+}
+
+.site-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.site-footer a {
+  color: var(--calcite-color-brand);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .site-footer {
+    padding: 1.25rem 1rem;
+  }
+
+  .footer-content {
+    font-size: 0.85rem;
+  }
+}
+
 @media (min-width: 550px) {
   .card-grid {
     grid-template-columns: repeat(2, 1fr);

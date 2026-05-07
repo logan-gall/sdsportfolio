@@ -249,15 +249,15 @@ let currentThemeIdx = 0;
 const themeBtn = document.getElementById("theme-btn");
 
 function applyTheme(idx) {
-  const html = document.documentElement;
+  const body = document.body;
 
   new Set(themes.flatMap((t) => [t.key, t.mode])).forEach((cls) =>
-    html.classList.remove(cls),
+    body.classList.remove(cls),
   );
 
   const theme = themes[idx];
-  html.classList.add(theme.mode);
-  html.classList.add(theme.key);
+  body.classList.add(theme.mode);
+  body.classList.add(theme.key);
 
   themeBtn.setAttribute("icon", theme.icon);
   themeBtn.setAttribute("text", theme.label);

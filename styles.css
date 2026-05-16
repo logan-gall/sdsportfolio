@@ -24,9 +24,69 @@ calcite-navigation {
 
 .section-heading {
   margin: 0 0 1.5rem;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: var(--calcite-color-text-1);
+}
+
+.about-divider {
+  border: 0;
+  border-top: 2px solid var(--calcite-color-border-2);
+  margin: 1.75rem 0;
+}
+
+.projects-heading-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.projects-heading-row .section-heading {
+  margin: 0;
+}
+
+.projects-filter {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+
+.projects-filter-menu {
+  position: absolute;
+  z-index: 1000;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  left: auto;
+  padding: 0.75rem;
+  min-width: 260px;
+  max-width: 340px;
+  background: var(--calcite-color-foreground-1);
+  border: 2px solid var(--calcite-color-border-2);
+  border-radius: 0.5rem;
+  box-shadow: var(--calcite-shadow-sm);
+}
+
+.projects-filter-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.projects-filter-tags {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.projects-filter-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
 }
 
 .card-grid {
@@ -37,6 +97,7 @@ calcite-navigation {
 
 calcite-card {
   width: 100%;
+  --calcite-card-corner-radius: 15px;
 }
 
 calcite-card img {
@@ -50,6 +111,11 @@ calcite-card img {
   display: flex;
   flex-wrap: wrap;
   gap: 4px;
+}
+
+calcite-dialog::part(header),
+calcite-dialog::part(footer) {
+  border-width: 2px;
 }
 
 .dialog-body {
@@ -71,12 +137,7 @@ calcite-card img {
   margin: 0 0 1rem;
 }
 
-.dialog-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-
+.dialog-tags,
 .dialog-links {
   display: flex;
   flex-wrap: wrap;
@@ -87,8 +148,8 @@ calcite-card img {
   margin-top: 2rem;
   padding: 2rem;
   background: var(--calcite-color-surface-1);
-  border-top: 1px solid var(--calcite-color-border-2);
-  color: var(--calcite-color-text-2);
+  border-top: 3px solid var(--calcite-color-border-2);
+  color: var(--calcite-color-text-1);
 }
 
 .footer-content {
@@ -116,13 +177,31 @@ calcite-card img {
   text-decoration: underline;
 }
 
+/* Responsive */
+#mobile-menu-btn {
+  display: none;
+  margin-inline-end: 0.5rem;
+}
+
 @media (max-width: 600px) {
+  .page-content {
+    padding: 1rem;
+  }
+
   .site-footer {
     padding: 1.25rem 1rem;
   }
 
   .footer-content {
     font-size: 0.85rem;
+  }
+
+  calcite-menu {
+    display: none;
+  }
+
+  #mobile-menu-btn {
+    display: inline-flex;
   }
 }
 
@@ -144,56 +223,172 @@ calcite-card img {
   }
 }
 
-/* Responsive */
-#mobile-menu-btn {
-  display: none;
-  margin-inline-end: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .page-content {
-    padding: 1rem;
-  }
-
-  .dialog-body img {
-    aspect-ratio: 16 / 9;
-  }
-
-  calcite-menu {
-    display: none;
-  }
-
-  #mobile-menu-btn {
-    display: inline-flex;
-  }
-}
-
 /* Themes */
 .theme-light {
   --calcite-color-brand: #7a0019;
-  --calcite-color-brand-hover: #5b0013;
-  --calcite-color-brand-press: #3d000d;
+  --calcite-color-brand-hover: #900021;
+  --calcite-color-brand-press: #5b0013;
 }
 
 .theme-dark {
   --calcite-color-brand: #ffcc33;
-  --calcite-color-brand-hover: #e6b800;
-  --calcite-color-brand-press: #cca300;
+  --calcite-color-brand-hover: #ffde7a;
+  --calcite-color-brand-press: #ffb71e;
 }
 
 .theme-umn {
   --calcite-color-brand: #ffcc33;
-  --calcite-color-brand-hover: #e6b800;
-  --calcite-color-brand-press: #cca300;
-  --calcite-color-background: #4a0010;
-  --calcite-color-surface-1: #5b0013;
-  --calcite-color-surface-2: #7a0019;
-  --calcite-color-surface-3: #3d000d;
-  --calcite-color-surface-4: #2e0009;
-  --calcite-color-text-1: #fff8e7;
-  --calcite-color-text-2: #ffe08a;
-  --calcite-color-text-3: #d4a017;
-  --calcite-color-border-1: #9b1c2e;
+  --calcite-color-brand-hover: #ffde7a;
+  --calcite-color-brand-press: #ffb71e;
+
+  --calcite-color-background: #5b0013;
+
+  --calcite-color-border-1: #7a0019;
   --calcite-color-border-2: #7a0019;
-  --calcite-color-border-3: #5b0013;
+  --calcite-color-border-3: #7a0019;
+
+  --calcite-color-text-1: #f4f4f4;
+  --calcite-color-text-2: #e6e6e6;
+  --calcite-color-text-3: #cfcfcf;
+
+  --calcite-color-foreground-1: #333333;
+  --calcite-color-foreground-2: #333333;
+  --calcite-color-foreground-3: #333333;
+}
+
+/* Education theme navigation/header */
+.theme-umn calcite-navigation {
+  --calcite-navigation-background-color: #333333;
+  --calcite-navigation-border-color: var(--calcite-color-brand);
+
+  background: #333333;
+  border-color: var(--calcite-color-brand);
+}
+
+/* Education theme header buttons / nav items */
+.theme-umn calcite-navigation calcite-action,
+.theme-umn calcite-navigation calcite-action-pad,
+.theme-umn calcite-navigation calcite-dropdown-group,
+.theme-umn calcite-navigation calcite-dropdown-item,
+.theme-umn calcite-navigation calcite-menu-item {
+  background: #333333;
+  color: var(--calcite-color-brand);
+
+  --calcite-color-foreground-1: #333333;
+  --calcite-color-foreground-2: #333333;
+  --calcite-color-foreground-3: #333333;
+
+  --calcite-action-background-color: #333333;
+  --calcite-action-background-color-hover: #3f3f3f;
+  --calcite-action-background-color-press: #4a4a4a;
+
+  --calcite-action-text-color: var(--calcite-color-brand);
+  --calcite-action-icon-color: var(--calcite-color-brand);
+
+  --calcite-dropdown-background-color: #333333;
+  --calcite-dropdown-text-color: var(--calcite-color-brand);
+
+  --calcite-list-background-color: #333333;
+  --calcite-list-text-color: var(--calcite-color-brand);
+}
+
+/* Force actual rendered button/list surfaces */
+.theme-umn calcite-action::part(container),
+.theme-umn calcite-action-pad::part(container),
+.theme-umn calcite-menu-item::part(content),
+.theme-umn calcite-menu-item::part(container),
+.theme-umn calcite-dropdown-item::part(content),
+.theme-umn calcite-dropdown-item::part(container) {
+  background: #333333;
+  color: var(--calcite-color-brand);
+}
+
+/* Hover states */
+.theme-umn calcite-navigation calcite-action:hover,
+.theme-umn calcite-navigation calcite-menu-item:hover,
+.theme-umn calcite-navigation calcite-dropdown-item:hover {
+  background: #3f3f3f;
+
+  --calcite-action-background-color: #3f3f3f;
+  --calcite-action-background-color-hover: #3f3f3f;
+  --calcite-action-background-color-press: #4a4a4a;
+
+  --calcite-color-foreground-1: #3f3f3f;
+  --calcite-color-foreground-2: #3f3f3f;
+  --calcite-color-foreground-3: #3f3f3f;
+}
+
+.theme-umn calcite-navigation calcite-action:hover::part(container),
+.theme-umn calcite-navigation calcite-menu-item:hover::part(content),
+.theme-umn calcite-navigation calcite-menu-item:hover::part(container),
+.theme-umn calcite-navigation calcite-dropdown-item:hover::part(content),
+.theme-umn calcite-navigation calcite-dropdown-item:hover::part(container) {
+  background: #3f3f3f;
+}
+
+/* Pressed/active states */
+.theme-umn calcite-action:active::part(container),
+.theme-umn calcite-action-pad:active::part(container),
+.theme-umn calcite-menu-item:active::part(content),
+.theme-umn calcite-dropdown-item:active::part(content) {
+  background: #4a4a4a;
+}
+
+/* Icons + labels */
+.theme-umn calcite-action::part(text),
+.theme-umn calcite-action::part(icon),
+.theme-umn calcite-menu-item::part(text),
+.theme-umn calcite-dropdown-item::part(text) {
+  color: var(--calcite-color-brand);
+}
+
+/* Education theme cards */
+.theme-umn calcite-card {
+  --calcite-card-background-color: #333333;
+  --calcite-card-border-color: #7a0019;
+
+  background: #333333;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.theme-umn calcite-card::part(container) {
+  background: #333333;
+  border-color: #7a0019;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+/* Education theme dialogs */
+.theme-umn calcite-dialog {
+  --calcite-dialog-background-color: #333333;
+  --calcite-dialog-border-color: #7a0019;
+
+  --calcite-color-foreground-1: #333333;
+  --calcite-color-foreground-2: #333333;
+  --calcite-color-foreground-3: #333333;
+}
+
+.theme-umn calcite-dialog::part(container),
+.theme-umn calcite-dialog::part(header),
+.theme-umn calcite-dialog::part(content),
+.theme-umn calcite-dialog::part(footer) {
+  background: #333333;
+  border-color: #7a0019;
+}
+
+/* Education theme divider lines */
+.theme-umn .about-divider {
+  border-top-color: #7a0019;
+}
+
+.theme-umn .projects-filter-menu {
+  border-color: #7a0019;
+  background: #333333;
+}
+
+/* Education theme footer */
+.theme-umn .site-footer {
+  border-top-color: #7a0019;
+  background: var(--calcite-color-background);
 }

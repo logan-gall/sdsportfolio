@@ -1,24 +1,13 @@
 {
-  "title": "An Interactive Look at the Geology of the Driftless Area",
-  "author": "Miles Sterner",
-  "thumbnail_image": "3d_model - Miles Sterner.png",
-  "popup_image": "2d_model - Miles Sterner.png",
-  "tags": [
-    "Geoscience",
-    "Cartography and Visualization",
-    "Natural Resource Management"
-  ],
-  "description": "Group project I completed as my final project for GIS 5574 (WebGIS). The linked StoryMaps page includes a 3D representation and 2D spatial model of the stratigraphic layers underlying portions of the driftless area in Houston County, MN. Information on the geologic characteristics and fossilized material found within each stratigraphic layer is provided based on selections in the interactive models. Additional info is given pertaining to the geologic history of the driftless area and how such a unique landscape came to exist in the Midwestern United States.",
-  "link_1": {
-    "text": "View My Portfolio",
-    "link": "https://stern489.github.io/mms-portfolio.github.io/"
-  },
-  "link_2": {
-    "text": "View the Project",
-    "link": "https://storymaps.arcgis.com/stories/49b83064b4314ecabd5f61ebd6cbb810"
-  },
-  "link_3": {
-    "text": "View My LinkedIn",
-    "link": "https://www.linkedin.com/in/miles-sterner-186093136"
-  }
+"title": "An Interactive Look at the Geology of the Driftless Area",
+"author": "Miles Sterner",
+"thumbnail_image": "3d_model - Miles Sterner.png",
+"thumbnail_alt_text": "3d topography and geology visualizaition.",
+"popup_image": "2d_model - Miles Sterner.png",
+"popup_alt_text": "2d map showing geology of the driftless area in Southeast Minnesota.",
+"tags": ["Geoscience", "Cartography & Visualization", "Natural Resource Management"],
+"description": "Group project I completed as my final project for GIS 5574 (WebGIS). The linked StoryMaps page includes a 3D representation and 2D spatial model of the stratigraphic layers underlying portions of the driftless area in Houston County, MN. Information on the geologic characteristics and fossilized material found within each stratigraphic layer is provided based on selections in the interactive models. Additional info is given pertaining to the geologic history of the driftless area and how such a unique landscape came to exist in the Midwestern United States.",
+"link_1": { "text": "View My Portfolio", "link": "https://stern489.github.io/mms-portfolio.github.io/" },
+"link_2": { "text": "View the Project", "link": "https://storymaps.arcgis.com/stories/49b83064b4314ecabd5f61ebd6cbb810" },
+"link_3": { "text": "View My LinkedIn", "link": "https://www.linkedin.com/in/miles-sterner-186093136" }
 }

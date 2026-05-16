@@ -1,0 +1,13 @@
+{
+"title": "Forest Identifier",
+"author": "Max Forsman",
+"thumbnail_image": "maxforsman_project_thumbnail - Max Forsman.jpg",
+"thumbnail_alt_text": "Satellite image highlighting tree canopies identified by machine learning.",
+"popup_image": "maxforsman_project_popup - Max Forsman.png",
+"popup_alt_text": "Satellite image highlighting a large region of tree canopies.",
+"tags": ["Machine Learning", "Coding-centric", "Remote Sensing", "Environment", "Open Source"],
+"description": "This project focused on creating an ArcGIS tool that ingests a georeferenced raster file, differentiates between forest/woodland and other landcovers (pavement, grassland, houses, etc.) based on pixel RGB values and using an Excess Green Index (a specialized calculation that accentuates chlorophyll signatures). This is particularly helpful when needing to draw polygons quickly to save time on desktop habitat analysis for bats, migratory birds, rare plant species, etc.",
+"link_1": { "text": "View My Portfolio", "link": "https://sites.google.com/view/maxwell-forsman-portfolio/home" },
+"link_2": { "text": "Project on GitHub", "link": "https://github.com/forsm080/ForestIdentifier" },
+"link_3": { "text": "My LinkedIn", "link": "https://www.linkedin.com/in/maxwell-forsman-209a301a2" }
+}

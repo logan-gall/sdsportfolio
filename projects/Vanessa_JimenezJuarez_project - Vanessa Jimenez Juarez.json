@@ -1,25 +1,13 @@
 {
-  "title": "TopoMod: Converting LiDAR Data into Educational Terrain Models",
-  "author": "Vanessa Jimenez Juarez",
-  "thumbnail_image": "VJ_thumbnail - Vanessa Jimenez Juarez.png",
-  "popup_image": "VJ_popup - Vanessa Jimenez Juarez.png",
-  "tags": [
-    "Education",
-    "Remote Sensing",
-    "Geoscience",
-    "Cartography & Visualization"
-  ],
-  "description": "TopoMod is a custom ArcGIS Pro toolbox that transforms LiDAR-derived elevation data into physical topography models for education and outreach. The workflow converts DEMs into contour lines optimized for either cardboard or laser-cut fabrication, allowing users to create hands-on terrain models from real geographic landscapes. Designed for classrooms, makerspaces, and GIS outreach environments, the project combines remote sensing, terrain analysis, ArcPy automation, and physical fabrication to make topographic concepts more interactive and accessible. The project is currently in a mock-up phase, with current development focused on expanding its use as an educational kit.",
-  "link_1": {
-    "text": "View My Portfolio",
-    "link": "https://sites.google.com/view/nessamundo/home"
-  },
-  "link_2": {
-    "text": "Project on Google Sites",
-    "link": "https://sites.google.com/view/nessamundo/home"
-  },
-  "link_3": {
-    "text": "My LinkedIn",
-    "link": "www.linkedin.com/in/vanessa-jimenezjua"
-  }
+"title": "TopoMod: Converting LiDAR Data into Educational Terrain Models",
+"author": "Vanessa Jimenez Juarez",
+"thumbnail_image": "VJ_thumbnail - Vanessa Jimenez Juarez.png",
+"thumbnail_alt_text": "Multiple physical topology model variants of a bluff feature.",
+"popup_image": "VJ_popup - Vanessa Jimenez Juarez.png",
+"popup_alt_text": "Demonstration activity box utilizing physical topology models of a bluff.",
+"tags": ["Education", "Remote Sensing", "Geoscience", "Cartography & Visualization"],
+"description": "TopoMod is a custom ArcGIS Pro toolbox that transforms LiDAR-derived elevation data into physical topography models for education and outreach. The workflow converts DEMs into contour lines optimized for either cardboard or laser-cut fabrication, allowing users to create hands-on terrain models from real geographic landscapes. Designed for classrooms, makerspaces, and GIS outreach environments, the project combines remote sensing, terrain analysis, ArcPy automation, and physical fabrication to make topographic concepts more interactive and accessible. The project is currently in a mock-up phase, with current development focused on expanding its use as an educational kit.",
+"link_1": { "text": "View My Portfolio", "link": "https://sites.google.com/view/nessamundo/home" },
+"link_2": { "text": "Project on Google Sites", "link": "https://sites.google.com/view/nessamundo/home" },
+"link_3": { "text": "My LinkedIn", "link": "https://www.linkedin.com/in/vanessa-jimenezjua" }
 }

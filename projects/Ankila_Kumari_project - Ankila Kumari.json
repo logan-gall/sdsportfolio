@@ -1,0 +1,29 @@
+{
+  "title": "Cycling-Based Food & Beverage Deserts in the Twin Cities",
+
+  "author": "Ankila Kumari",
+
+  "thumbnail_image": "thumbnail - Ankila Kumari.png",
+
+  "thumbnail_alt_text": "Map of the twin cities area showing Food & Beverage desert areas.",
+
+  "popup_image": "popup - Ankila Kumari.png",
+
+  "popup_alt_text": "Detailed map of Minneapolis Minnesota showing food and beverage desert areas.",
+
+  "tags": [
+  "Transportation",
+  "Urban Planning",
+  "Health",
+  "Cartography & Visualization",
+  "Network Analysis",
+  "Coding-centric"
+],
+
+  "description": "This project studies food and beverage accessibility in the Twin Cities using bicycle-based GIS analysis. Network analysis tools in ArcGIS Pro were used to map cycling access to food locations and identify underserved areas with limited bicycle connectivity. The project highlights how transportation infrastructure can influence food accessibility in urban communities.",
+
+  "link_1": {
+    "text": "ArcGIS Online Project",
+    "link": "https://umn.maps.arcgis.com/home/item.html?id=ed35fb017d154e38a74518252ab4e2e9"
+  }
+}

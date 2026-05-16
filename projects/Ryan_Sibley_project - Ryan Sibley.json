@@ -1,0 +1,13 @@
+{
+"title": "Elevation Tool to visualize Hiking Route in Badlands National Park",
+"author": "Ryan Sibley",
+"thumbnail_image": "BadlandsThumbnail - Ryan Sibley.png",
+"thumbnail_alt_text": "3d map & trail visualization in the Badlands.",
+"popup_image": "BadlandsCampZoom - Ryan Sibley.jpg",
+"popup_alt_text": "Topographic map and hiking route visualization in the Badlands.",
+"tags": ["Cartography & Visualization", "Environment", "Open Source", "Remote Sensing", "Coding-centric"],
+"description": "Backcountry hiking trip, 2.4 miles in from trailhead to campsite, 7.96 miles hiked. 2 Bison spotted, one was a little to close after we turned a corner and we needed to backtrack and reroute to keep our distance. Many deer. A coyote skull and a bison skull were found. Elevation Code can be found below, requires a list of downloads from USGS elevation",
+"link_1": { "text": "USGS LiDAR explorer for their 3D Elevation Program", "link": "https://apps.nationalmap.gov/lidar-explorer/#/" },
+"link_2": { "text": "Project on GitHub", "link": "https://github.com/sible041/ElevationTool" },
+"link_3": { "text": "My LinkedIn", "link": "https://www.linkedin.com/in/ryan-m-sibley/" }
+}

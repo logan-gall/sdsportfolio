@@ -26,7 +26,7 @@
     <calcite-navigation>
       <calcite-navigation-logo
         slot="logo"
-        heading="SDS Project Gallery"
+        heading="MGIS Project Gallery"
         icon="globe"
       ></calcite-navigation-logo>
       <calcite-menu slot="content-end" label="Site navigation">
@@ -60,11 +60,6 @@
       <calcite-panel id="mobile-panel" heading="Navigation" closable>
         <calcite-list>
           <calcite-list-item
-            label="MGIS Program"
-            href="https://cla.umn.edu/mgis/mgis-program"
-            target="_blank"
-          ></calcite-list-item>
-          <calcite-list-item
             label="GeoCommons"
             href="https://geocommons.umn.edu/"
             target="_blank"
@@ -76,11 +71,14 @@
     <!-- Main content area -->
     <div class="page-content">
       <p class="section-heading">About</p>
-      <p>
+	  <p>
 		Welcome to this showcase of spatial data science projects! These projects come from students enrolled in GIS 5572: Advanced Spatial Data Science class at the University of Minnesota. This portfolio is designed to be a showcase of the hard work, interdisciplinary interests, and cool projects that students are creating. These projects leverage tools like ArcGIS, Python, 3d modeling, and SQL to solve complex real-world challenges. Explore these projects and see how these wonderful students bridge the gap between theoretical spatial analysis and practical application!
       </p>
-      <p class="section-heading">Browse Projects</p>
-      <div class="card-grid" id="card-grid"></div>
+	  <hr class="about-divider" />
+		<div class="projects-heading-row">
+		  <p class="section-heading">Browse Projects</p>
+		</div>
+		<div class="card-grid" id="card-grid"></div>
     </div>
 
     <!-- Single reusable dialog -->
